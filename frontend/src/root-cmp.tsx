@@ -1,11 +1,13 @@
 import './App.css'
-import { RouterProvider } from 'react-router-dom'
-import { router } from './routes/router'
+// import { RouterProvider } from 'react-router-dom'
+import { RouterComponent } from './routes/route'
 
-export function RootCmp() {
+function RootCmp() {
 return (
   <div>
-<RouterProvider router={router} />
+<RouterComponent/>
   </div>
   )
 }
+
+export default RootCmp

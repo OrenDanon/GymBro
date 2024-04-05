@@ -1,21 +1,20 @@
-// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  RouterProvider,
+} from "react-router-dom";
 // import { HomePage } from '../pages/HomePage.tsx'
-// import { ROUTES } from './router.tsx'
- 
+import { ROUTES } from "./router.tsx"
 
-// export function RouterComponent() {
-//   return (
-//     <Router>
-//       <Switch>
-//         {ROUTES.map((route, index) => (
-//           <Route
-//             key={index}
-//             path={route.path}
-//             exact={route.exact}
-//             component={route.component}
-//           />
-//         ))}
-//       </Switch>
-//     </Router>
-//   )
-// }
+export function RouterComponent() {
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      ROUTES.map((route) => (
+        <Route key={route.path} path={route.path} element={route.path} />
+      ))
+    )
+  )
+
+  return <RouterProvider router={router} />
+}
