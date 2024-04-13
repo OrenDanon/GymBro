@@ -4,12 +4,11 @@ import { About } from '../pages/About'
 
 export const ROUTES = [
   {
-    path: "/",
+    path: '/',
     element: <HomePage />,
-    exact: true,
   },
   {
-    path: "/about",
-    element: <About/>
-  }
+    path: '/about',
+    element: <About />,
+  },
 ]
