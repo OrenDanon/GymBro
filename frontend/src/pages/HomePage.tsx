@@ -5,7 +5,7 @@ export function HomePage() {
 
 
 return (
-<div style={{backgroundColor: "brown", width: '100px', height: '100px'}}>
+<div style={{backgroundColor: "brown", width: '100px', height: '100px', display: 'none'}}>
 <button onClick={() => navigate('/about')}>Go to About</button>
 </div>
 )
