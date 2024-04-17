@@ -1,4 +1,4 @@
-* {
+*, *:before, *:after {
     box-sizing: border-box;
 }
 
@@ -10,6 +10,7 @@ html {
     margin: 0;
     padding: 0;
     height: 100%;
+    width: 100%
 }
 
 body {
@@ -17,6 +18,12 @@ body {
     margin: auto;
     color: var(--clr);
     overflow-x: hidden;
+    height: 100%;
+    width: 100%
+}
+
+img {
+    width: 100%;
 }
 
 a {

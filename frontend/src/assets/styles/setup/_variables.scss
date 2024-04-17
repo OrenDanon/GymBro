@@ -8,6 +8,12 @@ $clr5: #343A40;
 :root {
     --bg-color: $clr4;
     --clr: $clr5;
+    max-width: none;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
 }
 
 $mobile-breakpoint: 500px;
