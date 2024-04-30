@@ -7,7 +7,7 @@ export function HomePage() {
     <main className='homepage-container'>
       <section className='homepage-top'>
         <header className='app-header'>
-          <h1>hi</h1>
+          <h1>hiiiii</h1>
         </header>
         <div className='promo-pic'></div>
         <div className='top-half-content'></div>

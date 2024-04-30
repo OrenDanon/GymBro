@@ -6,8 +6,8 @@ $clr4: #F8F9FA;
 $clr5: #343A40;
 
 :root {
-    --bg-color: $clr4;
-    --clr: $clr5;
+    --bg-color: #{$clr4};
+    --clr: #{$clr5};
     max-width: none;
     padding: 0;
     width: 100%;
