@@ -5,17 +5,27 @@
     height: 100vh;
     overflow: hidden;
     background-color: var(--bg-color);
-    
-.homepage-top {
-    display: grid;
-    grid-template-rows: 1fr 2fr 1fr;
+
+    .app-header {
+        display: inline;
+    }
+
+    .homepage-top {
+        display: grid;
+        grid-template-rows: 1fr 2fr 1fr;
+        padding-inline-start: 100px;
+        padding-inline-end: 100px;
+        align-items: center;
+
+        ul.header-items {
+            display: flex;
+            justify-content: space-between;
+            padding: 0;
+        }
+    }
+
+    .homepage-bottom {
+        display: grid;
+        grid-template-rows: 1fr 2fr 1fr;
+    }
 }
-
-.homepage-bottom {
-    display: grid;
-    grid-template-rows: 1fr 2fr 1fr;
-}
-
-}
-
-
