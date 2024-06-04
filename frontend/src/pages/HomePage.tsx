@@ -8,11 +8,11 @@ export function HomePage() {
       <section className='homepage-top'>
         <header className='app-header'>
           <ul className="header-items">
-            <li>Home</li>
-            <li>Progress</li>
-            <li>Workouts</li>
-            <li>Social</li>
-            <li>Calender</li>
+            <li className="homepage-nav-btn">Home</li>
+            <li className="homepage-nav-btn">Progress</li>
+            <li className="homepage-nav-btn">Workouts</li>
+            <li className="homepage-nav-btn">Social</li>
+            <li className="homepage-nav-btn">Calender</li>
           </ul>
         </header>
         <div className='promo-pic'></div>

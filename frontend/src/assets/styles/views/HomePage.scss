@@ -22,6 +22,26 @@
             justify-content: space-between;
             padding: 0;
         }
+
+        .homepage-nav-btn {
+            // margin-inline-start: 100px;
+            // margin-inline-end: 100px;
+            margin: 5px;
+            padding: 10px;
+            background-image: $nav-button-clr;
+            color: $secondary-txt-color;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.2s ease, background-image 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .homepage-nav-btn:hover {
+            // transform: translate(1px, 1px);
+            transform: scale(1.05);
+            background-image: $nav-button-clr-hover;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+        }
     }
 
     .homepage-bottom {
