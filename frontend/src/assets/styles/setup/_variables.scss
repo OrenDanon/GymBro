@@ -1,13 +1,16 @@
 // Colors
-$clr1: #007BFF;
-$clr2: #FF7F50;
-$clr3: #28A745;
-$clr4: #F8F9FA;
-$clr5: #343A40;
+$primary-clr: #007BFF;
+$secondary-clr: #FF7F50;
+$accent-clr: #28A745;
+$background-clr: #d1d2d2;
+$text-clr: #343A40;
+$secondary-txt-color: #ffffff;
+$nav-button-clr: linear-gradient(to right, #007BFF, #0056b3);
+$nav-button-clr-hover: linear-gradient(to right, #0167d5, #033b78);
 
 :root {
-    --bg-color: #{$clr4};
-    --text-clr: #{$clr5};
+    --bg-color: #{$background-clr};
+    --clr: #{$text-clr};
     max-width: none;
     padding: 0;
     width: 100%;
