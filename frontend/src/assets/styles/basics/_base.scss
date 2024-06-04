@@ -1,0 +1,36 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: monospace, sans-serif;
+    line-height: 1.6;
+    background-color: var(--bg-color);
+    color: var(--clr);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%
+}
+
+body {
+    font-size: rem(16px);
+    background-color: var(--bg-color);
+    margin: auto;
+    color: var(--clr);
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
