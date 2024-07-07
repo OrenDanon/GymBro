@@ -7,6 +7,8 @@ $text-clr: #343A40;
 $secondary-txt-color: #ffffff;
 $nav-button-clr: linear-gradient(to right, #007BFF, #0056b3);
 $nav-button-clr-hover: linear-gradient(to right, #0167d5, #033b78);
+$button-clr-gradient: linear-gradient(to right, #FF7F50, #fc6833);
+$button-clr-gradient-hover: linear-gradient(to right, #fa642e, #fc581d);
 
 :root {
     --bg-color: #{$background-clr};
