@@ -29,7 +29,7 @@ export function HomePage() {
             )
         }, 3000)
         return () => clearInterval(interval)
-    }, [])
+    })
 
     return (
         <main className="homepage-container">

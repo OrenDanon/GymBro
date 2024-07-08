@@ -95,18 +95,23 @@
         }
         
         .inspiration-text {
+            width: 100%;
             position: relative;
             display: flex;
             align-items: center;
-
+            justify-content: center;
             .word {
                 position: absolute;
                 opacity: 0;
                 transition: opacity 3s ease-in-out;
+                font-size: 2em;
+                color: var(--accent-clr);
             }
             
             .word.visible {
                 opacity: 1;
+                font-size: 2em;
+                color: var(--accent-clr);
             }
             
         }
