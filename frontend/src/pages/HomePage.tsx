@@ -90,9 +90,23 @@ export function HomePage() {
             </section>
             <section className="homepage-bottom">
                 {/* second section */}
-                <section className="about-short"></section>
-                <div className="app-purpose"></div>
-                <div className="user-benefits"></div>
+                <section className="about-short">
+                <div className="app-purpose">
+                  <p>Why I created this app? Hi, my name is Oren Danon - a 24 years old ex-footballer, gym enthusiast with passion to Fullstack Development.
+                    I decided to create this app for people like me, as the name of the app might imply - gym bros (and girls).
+                  </p>
+                  {/* <p>Who am I? My name is Oren Danon, a 24 years old ex-footballer, gym enthusiast with passion to Fullstack Development. 
+                  This app was created by me to help myself and others log their workouts comfortably.</p> */}
+                
+                </div>
+                <div className="user-benefits">
+                  <p>How will this app help you? As I have mentioned I created this app to help myself, how?
+                    Well, to begin with the issue that I had is quite a unique one, logging my workouts.
+                    I could not find a proper tool to log my workouts - exercises, weights, reps, did I fail? Could I do more?
+                    So I decided to do just that, an app that would be up to my high standards, and I'm sure this app will help you one way or another.
+                  </p>
+                </div>
+                  </section>
                 {/* top section in second section */}
                 <article className="feature-details"></article>
                 {/* middle section in second section */}
