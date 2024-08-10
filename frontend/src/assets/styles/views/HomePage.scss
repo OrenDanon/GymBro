@@ -112,13 +112,14 @@
                 opacity: 0;
                 transition: opacity 3s ease-in-out;
                 font-size: 2em;
-                color: var(--accent-clr);
+                color: $accent-clr;
             }
 
             .word.visible {
                 opacity: 1;
                 font-size: 2em;
-                color: var(--accent-clr);
+                color: $accent-clr;
+                // color: var(--accent-clr);
             }
         }
     }
@@ -153,6 +154,34 @@
                     text-align: center;
                 }
             }
+        }
+        .feature-details {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            align-items: center;
+            justify-content: space-between;
+            
+            img {
+                @include feature-icons;
+            }
+            // .personalized-program {
+            //     background-color: lighten($primary-clr, 10%);
+            //     border-radius: 60%;
+            //     height: 100px;
+            //     width: 100px;
+            //     border: 5px groove black;
+            //     margin-inline-end: 200px;
+            // }
+
+            // .log-workouts {
+            //     background-color: lighten($primary-clr, 10%);
+            //     border-radius: 50%;
+            //     border: 5px groove black;
+            //     height: 100px;
+            //     width: 100px;
+
+            // }
         }
     }
 }
