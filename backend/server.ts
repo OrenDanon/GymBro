@@ -1,11 +1,14 @@
 import http from 'http'
 import path from 'path'
 import cors from 'cors'
+import dotenv from 'dotenv'
 import express from 'express'
 import cookieParser from 'cookie-parser'
+import { authRoutes } from './api/auth/auth.routes.ts'
 
 const app = express()
 const server = http.createServer(app)
+dotenv.config()
 
 require('dotenv').config();
 const YT_KEY = process.env.YT_KEY;
@@ -27,9 +30,7 @@ if (process.env.NODE_ENV === 'production') {
     app.use(cors(corsOptions))
 }
 
-import { authRoutes } from './api/auth/auth.routes.mjs'
 import { userRoutes } from './api/user/user.routes.mjs'
-import { stationRoutes } from './api/station/station.routes.mjs'
 import { setupSocketAPI } from './services/socket.service.mjs'
 
 // routes
@@ -38,7 +39,6 @@ app.all('*', setupAsyncLocalStorage)
 
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
-app.use('/api/station', stationRoutes)
 setupSocketAPI(server)
 
 // Make every server-side-route to match the index.html
