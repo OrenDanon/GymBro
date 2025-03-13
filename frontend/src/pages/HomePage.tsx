@@ -161,7 +161,8 @@ export function HomePage() {
                 {/* middle section in second section */}
                 <footer className="auth-section">
                     <div className="login-signup">
-                      <button className="button">
+                      <button className="signup">
+                        POWER UP!
                       </button>
                     </div>
                     <div className="target-audience"></div>

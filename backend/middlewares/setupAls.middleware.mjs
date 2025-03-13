@@ -1,4 +1,4 @@
-import { authService } from '../api/auth/auth.service.mjs'
+import { authService } from '../api/auth/auth.service.js'
 import { asyncLocalStorage } from '../services/als.service.mjs'
 
 export async function setupAsyncLocalStorage(req, res, next) {
