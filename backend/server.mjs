@@ -7,6 +7,9 @@ import cookieParser from 'cookie-parser'
 const app = express()
 const server = http.createServer(app)
 
+require('dotenv').config();
+const YT_KEY = process.env.YT_KEY;
+
 // Express App Config
 app.use(cookieParser())
 app.use(express.json())
